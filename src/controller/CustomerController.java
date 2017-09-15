@@ -25,7 +25,6 @@ public class CustomerController extends HttpServlet {
             checkIdPw(request,response);
          }
          else if(command.equals("duplicateIdCheck")) {
-        	System.out.println("aa");
             duplicateIdCheck(request,response);
          }
          else if(command.equals("createCustomer")) {
